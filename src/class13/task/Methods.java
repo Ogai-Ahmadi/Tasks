@@ -25,13 +25,24 @@ public class Methods {
 				break;
 			}
 		}
-break;}		
+break;
+}
+	}
+void IsPalindrome(String str) {
+		StringBuilder stbuilder=new StringBuilder();
+		stbuilder.reverse();
+		String reversedStr=stbuilder.toString();
+		if(str.equals(reversedStr)) {
+			System.out.println("Is Palindrome");
+	}else {
+		System.out.println("Not Palindrome");
+	}
 }
 //Create a method that will say Hello in different language
 //based on the country that will passed when method is executed
 	void greetings(String country) {
 		String language=" ";
-		
+		country.toLowerCase();
 		switch(country) {
 		case "USA":
 		language="Hello";
