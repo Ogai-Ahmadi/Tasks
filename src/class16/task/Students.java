@@ -30,8 +30,8 @@ st1.numberOfStudents++;
 st3.Name= "Mansoor";
 st3.ID = 125;
 st1.numberOfStudents++;
-int sum = numberOfStudents;
-System.out.println(sum);
+//int sum = numberOfStudents;
+System.out.println(numberOfStudents);
 
 
 	}
