@@ -16,7 +16,7 @@ public class Student {
 	}
 	public  double average() {
 	
-	double average=(this.grade1+this.grade2+this.grade3)/3;
+	double average=(grade1+grade2+grade3)/3;
 	return  average;
 	}
 
