@@ -1,14 +1,14 @@
 package class20task.teacher;
-
+import java.math.*;
 public class Circle extends Shape{
 	 
 	Circle(float radius){
 		super(radius);
 	}
 	
-		double circle_area(float r) {
+		double circle_area(int r) {
 
-			return (3.1415)*r*r;
+			return Math.PI*Math.pow(r,2);
 	}
 
 	public static void main(String[] args) {
