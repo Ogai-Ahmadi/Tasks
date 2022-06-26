@@ -58,7 +58,7 @@ class SyntaxStudent extends Student{
             System.out.println("invalid marks");
 
         }
-       System.out.println("Grade: "+grade);//end of if statement
+       System.out.println("Your Grade is : "+grade);//end of if statement
 
     }
     public void printInfo(){
@@ -112,6 +112,12 @@ class TestClass{
         schoolStudent.major="Engineering";
         schoolStudent.id=1234;
         schoolStudent.printInfo();
+        ///////////////////////////////////
+        //runtime polymorphism
+        System.out.println("Runtime polymorphism");
+        Student st = new SyntaxStudent();
+        st.grade(50);
+
 
 
 
